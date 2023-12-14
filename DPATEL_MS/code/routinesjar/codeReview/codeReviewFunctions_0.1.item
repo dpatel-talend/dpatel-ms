@@ -44,6 +44,7 @@ public class codeReviewFunctions {
     }
     
     public static void Test(String message) {
+    //codeReviewInterface f = () -> System.out.println("Hello, Dipen!");
     codeReviewInterface f = () -> System.out.println("Hello, Dipen!");
     execute(f);
     }
