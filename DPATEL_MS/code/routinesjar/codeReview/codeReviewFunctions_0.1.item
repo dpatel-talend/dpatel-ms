@@ -39,11 +39,11 @@ public class codeReviewFunctions {
         System.out.println("Hello " + message + " !"); //$NON-NLS-1$ //$NON-NLS-2$
     }
     
-    public void execute(codeReviewInterface f) {
+    public static void execute(codeReviewInterface f) {
     	f.apply();
     }
     
-    public void Test(String message) {
+    public static void Test(String message) {
     codeReviewInterface f = () -> System.out.println("Hello, Dipen!");
     execute(f);
     }
