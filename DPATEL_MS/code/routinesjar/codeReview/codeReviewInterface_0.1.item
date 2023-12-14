@@ -1,5 +1,5 @@
 package org.example.dpatel_ms.routinesjar.codereview;
-
+@FunctionalInterface
 /*
  * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
  * it must be before the "{talendTypes}" key.
@@ -18,24 +18,6 @@ package org.example.dpatel_ms.routinesjar.codereview;
  * 
  * 5. {example} gives a example for the Function. it is optional.
  */
-public class codeReviewInterface {
-
-    /**
-     * helloExample: not return value, only print "hello" + message.
-     * 
-     * 
-     * {talendTypes} String
-     * 
-     * {Category} User Defined
-     * 
-     * {param} string("world") input: The string need to be printed.
-     * 
-     * {example} helloExemple("world") # hello world !.
-     */
-    public static void helloExample(String message) {
-        if (message == null) {
-            message = "World"; //$NON-NLS-1$
-        }
-        System.out.println("Hello " + message + " !"); //$NON-NLS-1$ //$NON-NLS-2$
-    }
+public interface codeReviewInterface {
+	void apply();
 }
