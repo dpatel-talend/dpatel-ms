@@ -32,12 +32,12 @@ public class codeReviewFunctions {
      * 
      * {example} helloExemple("world") # hello world !.
      */
-    public static void helloExample(String message) {
+/*    public static void helloExample(String message) {
         if (message == null) {
             message = "World"; //$NON-NLS-1$
         }
         System.out.println("Hello " + message + " !"); //$NON-NLS-1$ //$NON-NLS-2$
-    }
+    }*/
     
     public static Boolean stringCheck(String value, String expectedValue) {
         if (value.equals(expectedValue)) {
@@ -46,8 +46,8 @@ public class codeReviewFunctions {
         else return false;
     }
     
-    public static void execute(codeReviewInterface f) {
-    	f.apply();
+    public static Boolean execute(codeReviewInterface f) {
+    	Boolean value = f.apply();
     }
     
     public static void Test(String message) {
