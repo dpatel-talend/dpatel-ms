@@ -50,9 +50,14 @@ public class codeReviewFunctions {
     	Boolean value = f.apply();
     }
     
-    public static void Test(String message) {
+    /*public static void Test(String message) {
     //codeReviewInterface f = () -> System.out.println("Hello, Dipen!");
     codeReviewInterface f = () -> System.out.println("Hello, Dipen!");
     execute(f);
-    }
+    }*/
+    
+    public static void Test(String message) {
+        //codeReviewInterface f = () -> System.out.println("Hello, Dipen!");
+    	System.out.println("Hello, Dipen!");
+        }
 }
