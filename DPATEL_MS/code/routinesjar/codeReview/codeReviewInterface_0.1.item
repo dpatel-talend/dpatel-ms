@@ -19,7 +19,7 @@ package org.example.dpatel_ms.routinesjar.codereview;
  * 5. {example} gives a example for the Function. it is optional.
  */
 public interface codeReviewInterface {
-	void apply();
+	Boolean apply();
 }
 
 
