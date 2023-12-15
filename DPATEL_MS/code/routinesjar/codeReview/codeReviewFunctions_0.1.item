@@ -39,6 +39,13 @@ public class codeReviewFunctions {
         System.out.println("Hello " + message + " !"); //$NON-NLS-1$ //$NON-NLS-2$
     }
     
+    public static Boolean stringCheck(String value, String expectedValue) {
+        if (value.equals(expectedValue)) {
+            return true;
+        }
+        else return false;
+    }
+    
     public static void execute(codeReviewInterface f) {
     	f.apply();
     }
