@@ -171,8 +171,17 @@
       <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="//log.info(&quot;Return Value: &quot; + codeReviewFunctions.execute(() -&gt; codeReviewFunctions.stringCheck(&quot;Dipen&quot;, &quot;Dipen&quot;)));&#10;&#10;//package org.example.dpatel_ms.routinesjar.codereview;&#10;&#10;Method method = Class.forName(&quot;org.example.dpatel_ms.routinesjar.codereview.codeReviewFunctions&quot;).getMethod(&quot;Test&quot;, new Class[] {String.class});&#10;    method.invoke(obj, &quot;MS&quot;);&#10;    &#10; &#10;    &#10;&#10;&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;&#10;import java.lang.*;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
   <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="448" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
@@ -201,6 +210,7 @@
   </node>
   <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
     <elementParameter field="RADIO" name="VERTICAL" value="false"/>
@@ -222,14 +232,6 @@
     <metadata connector="FLOW" name="tLogRow_1">
       <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
-  </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="128">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="//log.info(&quot;Return Value: &quot; + codeReviewFunctions.execute(() -&gt; codeReviewFunctions.stringCheck(&quot;Dipen&quot;, &quot;Dipen&quot;)));&#10;&#10;//package org.example.dpatel_ms.routinesjar.codereview;&#10;&#10;Method method = Class.forName(&quot;org.example.dpatel_ms.routinesjar.codereview.codeReviewFunctions&quot;).getMethod(&quot;Test&quot;, new Class[] {String.class});&#10;    method.invoke(obj, &quot;MS&quot;);&#10;    &#10; &#10;    &#10;&#10;&#10;"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;&#10;import java.lang.*;"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tJava_1"/>
   </node>
   <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="896" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_1"/>
@@ -272,10 +274,12 @@
   </connection>
   <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tLogRow_3" offsetLabelX="0" offsetLabelY="0" source="tLogRow_3" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row4"/>
   </connection>
   <connection connectorName="FLOW" label="test" lineStyle="0" metaname="test" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tLogRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="test"/>
   </connection>
   <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tLogRow_1" offsetLabelX="0" offsetLabelY="0" source="tLogRow_1" target="tJavaRow_1">
@@ -299,17 +303,17 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_1"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a05cb617-d17e-43b7-a83e-f0950a14f2b9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>W+sntZsAndOGw7wKXvs6epbe/hzl2MgZ/pBvhCdPbQpbV4OJNwbFMXpBpHunb4htF3uYzCp/9sk+&#13;
-YF6JI6xjGQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5f77b2d8-1c7e-4104-a2d8-80863a6da7dd"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>KA+juobKdRsorhOFu1HvPKYby6LmGpG0AmSE4cfYy7Ji3Vo9MWhup6JgrhlQ/NJbfFxi0+m+KMSp&#13;
-0vk8hj7NXQ==</DigestValue></Reference></SignedInfo><SignatureValue>YVtkM/cr4tLHI7niOKDq/B/lFP9/tywbQJmjGQQs2/VkwG2rTx7b1UGI+sipb+DuQQMYoWnZMAAk&#13;
-GaiuD4dABKpgFFSLt6jLnP1tBY/Wb9KQnhq9JoJLoj0tj+NsuAFcMltK6B352aughACr5Iftd4Gh&#13;
-NzzWwgEQoxHJRqsle/w2sNEm8bdj9j4Jm2sXaS4P/e0xYFGIOF846/zZcaYUgmr+ZF7HplwqURFr&#13;
-JE40meQ8LTjTfLUyZaywqrh/oCkykfdGQowKfmrhiGBb7iLb6L7lKjIGmzLJdAu1+AU3vYUOyR8N&#13;
-6EJYyby4vFKdDP5VQM4c6WmexBeGK5fqRFlh2g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e1bcf02b-8de1-40ba-ae7c-1170ca13f401"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>mJvidAJGM7OmsWiDT+4v/Wb6pMLC0K403Mf7mWaG0UXYJy1fGXp6NA3d2qx7Y9tx8j1xuv1lm7xm&#13;
+MyF4h2JS8A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d7d1da77-ca33-46c2-9ecd-2086a47fae15"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>HrzJEMTrRGpkmzh15XCNulknXVrrLcCWtkXDLlt4MUYEDID2PbZ83ec+gcG2WNnFEYHf7BY79ppo&#13;
+Z5dD/fPvSw==</DigestValue></Reference></SignedInfo><SignatureValue>d/17fO4bjCTP36d9BTRW84yS/9Yk/5OYnHRcVGwA/XeFiQ8m/mxL21N2fdd9fmEclcHktpXG9AQr&#13;
+cvPKvr5X8hpjo/PbN48w/lxqJGLdaS5ZHBv5FSj4CAeWFGN4S4tLuTgrEdL+dbe3KpVOc6N/Ggtv&#13;
+JhjKaDtN11StDM38h+z7q7k2WA1Yk72JM/26x685jCrLLb4kzgjggzwrtC9tzzmrse4ooizG2RSi&#13;
+1C1uI8wOoBMhCI5jEMoXULt5zJ2JkKocoRFrQEj0Wkfw2INpU6toBoaUv8Vnc/kky9P88IIRn7Mq&#13;
+2RvaGs/0s4FrMhFPm8iUHN5xpHgTrBWM4pU65g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -331,4 +335,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5f77b2d8-1c7e-4104-a2d8-80863a6da7dd" Target="#_a05cb617-d17e-43b7-a83e-f0950a14f2b9"><Timestamp>2024-01-18 15:20:45</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d7d1da77-ca33-46c2-9ecd-2086a47fae15" Target="#_e1bcf02b-8de1-40ba-ae7c-1170ca13f401"><Timestamp>2024-01-18 15:21:05</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
