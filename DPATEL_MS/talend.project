@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_HQ98YJLJEe6RbIg-znx5rg" label="dpatel-ms" language="java" technicalLabel="DPATEL_MS" author="_HQ98YZLJEe6RbIg-znx5rg" productVersion="Talend Cloud Data Fabric-8.0.1.20231116_0906-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/dpatel-talend/dpatel-ms&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+  <TalendProperties:Project xmi:id="_HQ98YJLJEe6RbIg-znx5rg" label="dpatel-ms" language="java" technicalLabel="DPATEL_MS" author="_HQ98YZLJEe6RbIg-znx5rg" productVersion="Talend Cloud Data Fabric-8.0.1.20231219_0641-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/dpatel-talend/dpatel-ms&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <migrationTask xmi:id="_HRjyQJLJEe6RbIg-znx5rg" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_HQ98YZLJEe6RbIg-znx5rg" login="dpatel.talend.com@talendconsultingus.aws" firstName="Dipen" lastName="Patel" type="DQ"/>
