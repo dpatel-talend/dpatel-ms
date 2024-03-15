@@ -86,6 +86,17 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_hDF5sNsiEe6kMuNVNeU5ug",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_qEKz0OLREe6CtP94Qc1eRg",
+    "version" : "Latest",
+    "type" : "joblet"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_jsCR4NsiEe6kMuNVNeU5ug",
     "version" : "0.1",
     "type" : "job"
