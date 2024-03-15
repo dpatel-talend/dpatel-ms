@@ -1,31 +1,147 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore" xmi:version="2.0">
-  <model:JobletProcess xmi:id="_omTusOLREe6CtP94Qc1eRg">
-    <parameters xmi:id="_omTuseLREe6CtP94Qc1eRg">
-      <routinesParameter id="_xPUk8ME9Ee6rZc4-d7HmRg" name="DQTechnical" xmi:id="_omTusuLREe6CtP94Qc1eRg"/>
-      <routinesParameter id="_xO2q4ME9Ee6rZc4-d7HmRg" name="DataMasking" xmi:id="_omTus-LREe6CtP94Qc1eRg"/>
-      <routinesParameter id="_IkyUsJLJEe6RbIg-znx5rg" name="DataOperation" xmi:id="_omTutOLREe6CtP94Qc1eRg"/>
-      <routinesParameter id="_xPGigME9Ee6rZc4-d7HmRg" name="DataQualityDependencies" xmi:id="_omTuteLREe6CtP94Qc1eRg"/>
-      <routinesParameter id="_xPBC8ME9Ee6rZc4-d7HmRg" name="DataQuality" xmi:id="_omTutuLREe6CtP94Qc1eRg"/>
-      <routinesParameter id="_xPMpIME9Ee6rZc4-d7HmRg" name="DqStringHandling" xmi:id="_omTut-LREe6CtP94Qc1eRg"/>
-      <routinesParameter id="_Ik8FsJLJEe6RbIg-znx5rg" name="Mathematical" xmi:id="_omTuuOLREe6CtP94Qc1eRg"/>
-      <routinesParameter id="_IlFPoJLJEe6RbIg-znx5rg" name="Numeric" xmi:id="_omTuueLREe6CtP94Qc1eRg"/>
-      <routinesParameter id="_IlNLcJLJEe6RbIg-znx5rg" name="Relational" xmi:id="_omTuuuLREe6CtP94Qc1eRg"/>
-      <routinesParameter id="_Ij9OQJLJEe6RbIg-znx5rg" name="SQLike" xmi:id="_omTuu-LREe6CtP94Qc1eRg"/>
-      <routinesParameter id="_Illl8JLJEe6RbIg-znx5rg" name="StringHandling" xmi:id="_omTuvOLREe6CtP94Qc1eRg"/>
-      <routinesParameter id="_IlxMIJLJEe6RbIg-znx5rg" name="TalendDataGenerator" xmi:id="_omTuveLREe6CtP94Qc1eRg"/>
-      <routinesParameter id="_Il6WEJLJEe6RbIg-znx5rg" name="TalendDate" xmi:id="_omTuvuLREe6CtP94Qc1eRg"/>
-      <routinesParameter id="_ImOfIJLJEe6RbIg-znx5rg" name="TalendStringUtil" xmi:id="_omTuv-LREe6CtP94Qc1eRg"/>
-      <routinesParameter id="_ImEHEJLJEe6RbIg-znx5rg" name="TalendString" xmi:id="_omTuwOLREe6CtP94Qc1eRg"/>
-    </parameters>
-  </model:JobletProcess>
-  <TalendProperties:ByteArray xmi:id="_omTuweLREe6CtP94Qc1eRg"/>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b70f2a22-d0cc-4dde-bb0b-4b842d693ad2"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>5gdgbq9L6+ak9L1tGdVOL/UnEtgQRO1BYJJHIL69CL4O3jqC6ajJsn1DZ/5JGrRWrosXs28KIxtr&#13;
-z5zGuteCfA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_752c8ef8-3bf2-4bf0-be87-068bee4e8781"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Vy0ePmjS/HaMbIPrcl0/C+H01/DyYRAZ55IqJc/AXXrZVCqYuUGOZ1rheuBpFmMLU0pWrdmQ+pGU&#13;
-S0OY2CpfVA==</DigestValue></Reference></SignedInfo><SignatureValue>W2HUZ8V5mzBl5EQHFaixndKVH5qllFf+t0u6Dxpjr+X4ahjc4y1IlsAW0BvjhyfLrV4WYOW4E1qH&#13;
-8ehL3RgriObnI2KiUCxRtKX+RWIqn+KC5RXhwtJQUUbGgejSDMl5+01Rm0D+ngvHsNZT5Idg5xVt&#13;
-N5HBy5cma4nrtMJ2/Rj/JI+XtjmTAN4ndk2bDYnDp6cDGfVpcUeYHZ+Nxt0zXje3EwfbAK60fXFH&#13;
-K0EKQoL6/glpcjwCz2i9Cu4F5GD7Qi+0GNjzgzWGr4vxysQ2kkoSZAj3WJggTDR6WVXRa6ayxj03&#13;
-/RGGvWzO/iTdXuc/oB+62CCyVK3O8VSCoVcVkQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><model:JobletProcess xmlns:model="http://www.talend.com/joblet.ecore" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" framework="Spark" jobType="Big_Data_Batch" xmi:id="_ynFQEOLREe6CtP94Qc1eRg" xmi:version="2.0">
+  <context confirmationNeeded="false" hide="false" name="Default" xmi:id="_ynFQEeLREe6CtP94Qc1eRg"/>
+  <parameters xmi:id="_ynFQEuLREe6CtP94Qc1eRg">
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info" xmi:id="_ynFQE-LREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0" xmi:id="_ynFQFOLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0" xmi:id="_ynFQFeLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value="" xmi:id="_ynFQFuLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value="" xmi:id="_ynFQF-LREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value="" xmi:id="_ynFQGOLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value="" xmi:id="_ynFQGeLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value="" xmi:id="_ynFQGuLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value="" xmi:id="_ynFQG-LREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value="" xmi:id="_ynFQHOLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value="" xmi:id="_ynFQHeLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value="" xmi:id="_ynFQHuLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value="" xmi:id="_ynFQH-LREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value="" xmi:id="_ynFQIOLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value="" xmi:id="_ynFQIeLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value="" xmi:id="_ynFQIuLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value="" xmi:id="_ynFQI-LREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value="" xmi:id="_ynFQJOLREe6CtP94Qc1eRg"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="false" xmi:id="_ynFQJeLREe6CtP94Qc1eRg"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="false" xmi:id="_ynFQJuLREe6CtP94Qc1eRg"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" show="false" value="false" xmi:id="_ynFQJ-LREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" show="false" value="25000" xmi:id="_ynFQKOLREe6CtP94Qc1eRg"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" xmi:id="_ynFQKeLREe6CtP94Qc1eRg"/>
+    <elementParameter field="ICON_SELECTION" name="ICONSELECTION" value="" xmi:id="_ynFQKuLREe6CtP94Qc1eRg"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" show="false" value="false" xmi:id="_ynFQK-LREe6CtP94Qc1eRg"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false" xmi:id="_ynFQLOLREe6CtP94Qc1eRg"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false" xmi:id="_ynFQLeLREe6CtP94Qc1eRg"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;C:/Users/PEZ/talend_workspace_8/in.csv&quot;" xmi:id="_ynFQLuLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;" xmi:id="_ynFQL-LREe6CtP94Qc1eRg"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false" xmi:id="_ynFQMOLREe6CtP94Qc1eRg"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15" xmi:id="_ynFQMeLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15" xmi:id="_ynFQMuLREe6CtP94Qc1eRg"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value="" xmi:id="_ynFQM-LREe6CtP94Qc1eRg"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value="ORACLE_12" xmi:id="_ynFQNOLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_ynFQNeLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false" xmi:id="_ynFQNuLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_ynFQN-LREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_ynFQOOLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_ynFQOeLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_ynFQOuLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_ynFQO-LREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_ynFQPOLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_ynFQPeLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_ynFQPuLREe6CtP94Qc1eRg"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:T/+ZAEyGcRqVAG/5LwjOxRCO2SET/KJIqnDDEVxC" xmi:id="_ynFQP-LREe6CtP94Qc1eRg"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_ynFQQOLREe6CtP94Qc1eRg"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_ynFQQeLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_ynFQQuLREe6CtP94Qc1eRg"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning" xmi:id="_ynFQQ-LREe6CtP94Qc1eRg"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning" xmi:id="_ynFQROLREe6CtP94Qc1eRg"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false" xmi:id="_ynFQReLREe6CtP94Qc1eRg"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false" xmi:id="_ynFQRuLREe6CtP94Qc1eRg"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="true" xmi:id="_ynFQR-LREe6CtP94Qc1eRg"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="true" xmi:id="_ynFQSOLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value="" xmi:id="_ynFQSeLREe6CtP94Qc1eRg"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false" xmi:id="_ynFQSuLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value="" xmi:id="_ynFQS-LREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value="" xmi:id="_ynFQTOLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value="" xmi:id="_ynFQTeLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value="" xmi:id="_ynFQTuLREe6CtP94Qc1eRg"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false" xmi:id="_ynFQT-LREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value="" xmi:id="_ynFQUOLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value="" xmi:id="_ynFQUeLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value="" xmi:id="_ynFQUuLREe6CtP94Qc1eRg"/>
+    <routinesParameter id="_xPUk8ME9Ee6rZc4-d7HmRg" name="DQTechnical" xmi:id="_ynFQU-LREe6CtP94Qc1eRg"/>
+    <routinesParameter id="_xO2q4ME9Ee6rZc4-d7HmRg" name="DataMasking" xmi:id="_ynFQVOLREe6CtP94Qc1eRg"/>
+    <routinesParameter id="_IkyUsJLJEe6RbIg-znx5rg" name="DataOperation" xmi:id="_ynFQVeLREe6CtP94Qc1eRg"/>
+    <routinesParameter id="_xPGigME9Ee6rZc4-d7HmRg" name="DataQualityDependencies" xmi:id="_ynFQVuLREe6CtP94Qc1eRg"/>
+    <routinesParameter id="_xPBC8ME9Ee6rZc4-d7HmRg" name="DataQuality" xmi:id="_ynFQV-LREe6CtP94Qc1eRg"/>
+    <routinesParameter id="_xPMpIME9Ee6rZc4-d7HmRg" name="DqStringHandling" xmi:id="_ynFQWOLREe6CtP94Qc1eRg"/>
+    <routinesParameter id="_Ik8FsJLJEe6RbIg-znx5rg" name="Mathematical" xmi:id="_ynFQWeLREe6CtP94Qc1eRg"/>
+    <routinesParameter id="_IlFPoJLJEe6RbIg-znx5rg" name="Numeric" xmi:id="_ynFQWuLREe6CtP94Qc1eRg"/>
+    <routinesParameter id="_IlNLcJLJEe6RbIg-znx5rg" name="Relational" xmi:id="_ynFQW-LREe6CtP94Qc1eRg"/>
+    <routinesParameter id="_Ij9OQJLJEe6RbIg-znx5rg" name="SQLike" xmi:id="_ynFQXOLREe6CtP94Qc1eRg"/>
+    <routinesParameter id="_Illl8JLJEe6RbIg-znx5rg" name="StringHandling" xmi:id="_ynFQXeLREe6CtP94Qc1eRg"/>
+    <routinesParameter id="_IlxMIJLJEe6RbIg-znx5rg" name="TalendDataGenerator" xmi:id="_ynFQXuLREe6CtP94Qc1eRg"/>
+    <routinesParameter id="_Il6WEJLJEe6RbIg-znx5rg" name="TalendDate" xmi:id="_ynFQX-LREe6CtP94Qc1eRg"/>
+    <routinesParameter id="_ImOfIJLJEe6RbIg-znx5rg" name="TalendStringUtil" xmi:id="_ynFQYOLREe6CtP94Qc1eRg"/>
+    <routinesParameter id="_ImEHEJLJEe6RbIg-znx5rg" name="TalendString" xmi:id="_ynFQYeLREe6CtP94Qc1eRg"/>
+  </parameters>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="128" xmi:id="_ynFQYuLREe6CtP94Qc1eRg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1" xmi:id="_ynFQY-LREe6CtP94Qc1eRg"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="// Here you can write custom Java code using your input and/or output rdd(s) : &#10;// The input rdd is available as the 'rdd_cid' variable where cid is the name of the tJava component&#10;// The class of the input rdd is called &quot;rowXStruct&quot; where rowX is the name of the incoming connection to tJava component, this class has the input schema columns as attributes.&#10;// The output rdd is available as the 'outputrdd_cid' variable where cid is the name of the tJava component&#10;// The class of the output rdd is called 'RecordOut_cid' where cid is the name of the tJava component, this class has the output schema columns as attributes.&#10;// The java spark context is available as the variable &quot;ctx&quot;&#10;&#10;// Code Samples, where tJava_1 is the name of the tJava component :&#10;&#10;// System.out.println(rdd_tJava_1.count());&#10;&#10;// for(RecordIn_tJava_1 record : rdd_tJava_1.take(10)){&#10;//    System.out.println(record.col1);&#10;// }&#10;&#10;// You can also create an output rdd by using custom transformations on the input rdd, where mapInToOut is a class defined in the classes code section in the advanced settings&#10;// outputrdd_tJava_1 = rdd_tJava_1.map(new mapInToOut());&#10;&#10;    " xmi:id="_ynFQZOLREe6CtP94Qc1eRg"/>
+    <elementParameter field="MEMO_JAVA" name="CLASS_CODE" value="// Here you can define any classes that you wish to use in with your custom code :&#10;// The input rdd is available as the 'rdd_cid' variable where cid is the name of the tJava component&#10;// The class of the input rdd is called &quot;rowXStruct&quot; where rowX is the name of the incoming connection to tJava component, this class has the input schema columns as attributes.&#10;// The output rdd is available as the 'outputrdd_cid' variable where cid is the name of the tJava component&#10;// The class of the output rdd is called 'RecordOut_cid' where cid is the name of the tJava component, this class has the output schema columns as attributes.&#10;// The java spark context is available as the variable &quot;ctx&quot;&#10;&#10;// Code Samples :&#10;&#10;// public static class DataFrameRowToRddObject implements org.apache.spark.api.java.function.Function&lt;org.apache.spark.sql.Row, RecordOut_tJava_1&gt; {&#10;//  @Override&#10;//  public RecordOut_tJava_1 call(org.apache.spark.sql.Row row){&#10;//        RecordOut_tJava_1 output = new RecordOut_tJava_1();&#10;//        output.col1 = (String) row.get(0);&#10;//        ...&#10;//        return output;&#10;//  }&#10;      " xmi:id="_ynFQZeLREe6CtP94Qc1eRg"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;" xmi:id="_ynFQZuLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_ynFQZ-LREe6CtP94Qc1eRg"/>
+    <metadata connector="FLOW" name="tJava_1" xmi:id="_ynFQaOLREe6CtP94Qc1eRg">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true" xmi:id="_ynFQaeLREe6CtP94Qc1eRg"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="INPUT_1" offsetLabelX="0" offsetLabelY="0" source="INPUT_1" target="tJava_1" xmi:id="_ynFQauLREe6CtP94Qc1eRg">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false" xmi:id="_ynFQa-LREe6CtP94Qc1eRg">
+      <elementValue elementRef="TRACE_COLUMN" value="newColumn" xmi:id="_ynFQbOLREe6CtP94Qc1eRg"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" xmi:id="_ynFQbeLREe6CtP94Qc1eRg"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" xmi:id="_ynFQbuLREe6CtP94Qc1eRg"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false" xmi:id="_ynFQb-LREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1" xmi:id="_ynFQcOLREe6CtP94Qc1eRg"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="OUTPUT_1" xmi:id="_ynFQceLREe6CtP94Qc1eRg">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false" xmi:id="_ynFQcuLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2" xmi:id="_ynFQc-LREe6CtP94Qc1eRg"/>
+  </connection>
+  <subjob xmi:id="_ynFQdOLREe6CtP94Qc1eRg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="INPUT_1" xmi:id="_ynFQdeLREe6CtP94Qc1eRg"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_ynFQduLREe6CtP94Qc1eRg"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_ynFQd-LREe6CtP94Qc1eRg"/>
+  </subjob>
+  <jobletNodes componentName="INPUT" componentVersion="0.1" input="true" offsetLabelX="0" offsetLabelY="0" posX="96" posY="128" xmi:id="_ynFQeeLREe6CtP94Qc1eRg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="INPUT_1" xmi:id="_ynFQeuLREe6CtP94Qc1eRg"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true" xmi:id="_ynFQe-LREe6CtP94Qc1eRg"/>
+    <elementParameter field="CHECK" name="START" show="false" value="true" xmi:id="_ynFQfOLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__" xmi:id="_ynFQfeLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__" xmi:id="_ynFQfuLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_ynFQf-LREe6CtP94Qc1eRg"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false" xmi:id="_ynFQgOLREe6CtP94Qc1eRg"/>
+    <elementParameter field="MEMO" name="COMMENT" value="" xmi:id="_ynFQgeLREe6CtP94Qc1eRg"/>
+    <metadata connector="FLOW" name="INPUT_1" xmi:id="_ynFQguLREe6CtP94Qc1eRg">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true" xmi:id="_ynFQg-LREe6CtP94Qc1eRg"/>
+    </metadata>
+  </jobletNodes>
+  <jobletNodes componentName="OUTPUT" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="576" posY="96" xmi:id="_ynFQhOLREe6CtP94Qc1eRg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OUTPUT_1" xmi:id="_ynFQheLREe6CtP94Qc1eRg"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="false" xmi:id="_ynFQhuLREe6CtP94Qc1eRg"/>
+    <elementParameter field="CHECK" name="START" show="false" value="false" xmi:id="_ynFQh-LREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__" xmi:id="_ynFQiOLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__" xmi:id="_ynFQieLREe6CtP94Qc1eRg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_ynFQiuLREe6CtP94Qc1eRg"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false" xmi:id="_ynFQi-LREe6CtP94Qc1eRg"/>
+    <elementParameter field="MEMO" name="COMMENT" value="" xmi:id="_ynFQjOLREe6CtP94Qc1eRg"/>
+    <metadata connector="FLOW" name="OUTPUT_1" xmi:id="_ynFQjeLREe6CtP94Qc1eRg">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true" xmi:id="_ynFQjuLREe6CtP94Qc1eRg"/>
+    </metadata>
+  </jobletNodes>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_fd204419-6e31-45f7-ad55-d4bfe911bdca"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>VkENaNXbgGI8YG1FdTrUC3SGwwMrXkUlh4mVK6h8M5oVHZ+v4PMPlx/7dzrfjNaMYUNYSeBxj6Fd&#13;
+PUJjmp5ZQg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2228b458-6ee3-4473-89a5-69a810d42ba7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>64P1lYuX2tp91LIC1twBI9Anc8dnJpdXqdHeC7m7ovL10sV9N4xCTK7y4TF3X8IK4g7/tGIrB3rQ&#13;
+lZLKyqbaEg==</DigestValue></Reference></SignedInfo><SignatureValue>SW1qb9IUVB9URx2FS4e/1m8PEc/8uuTqDJm14SXUeeAva7p1s4eCzoj12pez5CFI9sCYXNwNK1qG&#13;
++A0EuOP746pwvB3p7RslNjDQTkJYMfRRwHqL81oY5UTWSRcJwkW7T4p7zeIrVtEBoDUIVrBkwECt&#13;
+PBXNLryxWC//xP0gh/9bcHXzr/1hSpgDxAUBsL9ZCd8j3hukwqUmUKnWYvZ1ku1fyzBgOR4rCRej&#13;
+Ma1FH9Z2hGYeBSYs0E6WMa/nWMZqhldAbBgSusfvdl2v0vZLTxzKGEcr4Gqaqh2nLdC/gHaZcBL6&#13;
+YRzUct7iy9/JpmDNu+twljDjjYZwfiSdUORi/w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -47,4 +163,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_752c8ef8-3bf2-4bf0-be87-068bee4e8781" Target="#_b70f2a22-d0cc-4dde-bb0b-4b842d693ad2"><Timestamp>2024-03-15 13:40:49</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2228b458-6ee3-4473-89a5-69a810d42ba7" Target="#_fd204419-6e31-45f7-ad55-d4bfe911bdca"><Timestamp>2024-03-15 13:41:56</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></model:JobletProcess>
